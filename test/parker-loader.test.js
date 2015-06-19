@@ -1,3 +1,5 @@
+'use strict';
+
 var test = require('tape');
 var webpack = require('webpack');
 var fs = require('fs');

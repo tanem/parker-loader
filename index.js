@@ -1,3 +1,5 @@
+'use strict';
+
 var merge = require('lodash.merge');
 var loaderUtils = require('loader-utils');
 var Parker = require('parker');
