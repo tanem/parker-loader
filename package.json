@@ -1,0 +1,41 @@
+{
+  "name": "parker-loader",
+  "version": "1.0.0",
+  "description": "Output a stylesheet analysis report using parker and webpack.",
+  "main": "index.js",
+  "dependencies": {
+    "loader-utils": "^0.2.10",
+    "lodash.merge": "^3.3.1"
+  },
+  "peerDependencies": {
+    "parker": "*",
+    "webpack": "*"
+  },
+  "scripts": {
+    "test": "rm -rf build && tape test/parker-loader.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tanem/parker-loader.git"
+  },
+  "homepage": "https://github.com/tanem/parker-loader",
+  "author": {
+    "name": "Tane Morgan",
+    "url": "http://github.com/tanem"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "file-loader": "^0.8.4",
+    "raw-loader": "^0.5.1",
+    "tape": "^4.0.0"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "parker",
+    "stylesheet",
+    "analysis",
+    "report",
+    "css"
+  ]
+}

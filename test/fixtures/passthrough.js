@@ -1,0 +1,1 @@
+require('file?name=styles.css!../../!./styles.css');

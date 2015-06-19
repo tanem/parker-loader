@@ -1,0 +1,21 @@
+.foo {
+  colour: #123456;
+  height: 20px;
+  width: 20px;
+}
+
+.foo .bar {
+  colour: #234567;
+  height: 40px;
+  width: 40px
+}
+
+#baz {
+  display: inline-block !important;
+}
+
+@media (max-width: 600px) {
+  #baz {
+    display: none;
+  }
+}

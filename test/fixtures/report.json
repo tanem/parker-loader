@@ -1,0 +1,24 @@
+{
+    "total-stylesheets": 1,
+    "total-stylesheet-size": 232,
+    "total-rules": 4,
+    "total-selectors": 4,
+    "total-identifiers": 5,
+    "total-declarations": 8,
+    "selectors-per-rule": 1,
+    "identifiers-per-selector": 1.25,
+    "specificity-per-selector": 57.5,
+    "top-selector-specificity": 100,
+    "top-selector-specificity-selector": "#baz",
+    "total-id-selectors": 2,
+    "total-unique-colours": 2,
+    "unique-colours": [
+        "#123456",
+        "#234567"
+    ],
+    "total-important-keywords": 1,
+    "total-media-queries": 1,
+    "media-queries": [
+        "(max-width: 600px)"
+    ]
+}
