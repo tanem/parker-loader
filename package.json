@@ -1,6 +1,6 @@
 {
   "name": "parker-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Output a stylesheet analysis report using parker and webpack.",
   "main": "index.js",
   "dependencies": {
