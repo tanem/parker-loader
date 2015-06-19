@@ -16,7 +16,7 @@ __Note:__ [npm](https://npmjs.com) will deprecate [peerDependencies](https://git
 ## Usage
 
 ```js
-var css = require('raw!parker!./file.css');
+var css = require('raw!parker!./styles.css');
 ```
 
 Or within the webpack config:
@@ -24,7 +24,7 @@ Or within the webpack config:
 ```js
 module: {
   loaders: [{
-    test: /\.css$/,
+    test: /styles\.css$/,
     loader: 'raw!parker?format=md&report=stylesheet-analysis.md'
   }]
 }
