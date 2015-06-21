@@ -63,7 +63,3 @@ loaders: [
 ```
 $ npm test
 ```
-
-## Credits
-
-* [autoprefixer-loader](https://github.com/passy/autoprefixer-loader) for README format hints.
