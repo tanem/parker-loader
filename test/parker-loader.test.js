@@ -42,7 +42,7 @@ test('should default the format to markdown', function(t){
   t.plan(1);
 
   webpack(
-    makeConfig(path.join(__dirname, 'fixtures/default.js')),
+    makeConfig(path.join(__dirname, 'fixtures/default-format.js')),
     function(error) {
       if (error) t.fail(error);
       t.equal(
@@ -52,6 +52,23 @@ test('should default the format to markdown', function(t){
     }
   );
   
+});
+
+test('should default the filename to [name]-analysis.md', function(t){
+  
+  t.plan(1);
+    
+  webpack(
+    makeConfig(path.join(__dirname, 'fixtures/default-filename.js')),
+    function(error) {
+      if (error) t.fail(error);
+      t.equal(
+        readFile('../build/styles-analysis.md'),
+        readFile('fixtures/report.md')
+      );
+    }
+  );
+
 });
 
 test('should allow specification of the format', function(t){

@@ -12,13 +12,9 @@ module.exports = function(source){
   formatters = merge(formatters, { markdown: markdownFormatter });
   var results = new Parker(metrics).run(source);
   var query = loaderUtils.parseQuery(this.query);
-  var filename = query.filename;
   var formatter = formatters[query.format] || formatters.markdown;
+  var url = loaderUtils.interpolateName(this, query.filename || '[name]-analysis.md', {});
   var output = formatter(metrics, results);
-  if (filename) {
-    this.emitFile(filename, output);
-  } else {
-    this.emitError('parker-loader requires an output filename');
-  }
+  this.emitFile(url, output);
   return source;
 };

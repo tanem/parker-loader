@@ -34,7 +34,7 @@ module: {
 
 ### `format`
 
-Specify the report format (defaults to markdown). See the [parker usage docs](https://github.com/katiefenn/parker/tree/master/docs/usage) for other format options.
+Specify the report format (defaults to `markdown`). See the [parker usage docs](https://github.com/katiefenn/parker/tree/master/docs/usage) for other format options.
 
 ```js
 loaders: [
@@ -47,13 +47,13 @@ loaders: [
 
 ### `filename`
 
-Specify the report filename (required).
+Specify the report filename (defaults to `[name]-analysis.md`).
 
 ```js
 loaders: [
   {
     ...
-    loader: 'raw!parker?filename=stylesheet-analysis.md'
+    loader: 'raw!parker?filename=../parker-reports/[name].md'
   }
 ]
 ```
