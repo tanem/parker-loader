@@ -25,7 +25,7 @@ Or within the webpack config:
 module: {
   loaders: [{
     test: /styles\.css$/,
-    loader: 'raw!parker?format=md&report=stylesheet-analysis.md'
+    loader: 'raw!parker?format=md&filename=stylesheet-analysis.md'
   }]
 }
 ```
@@ -45,7 +45,7 @@ loaders: [
 ]
 ```
 
-### `report`
+### `filename`
 
 Specify the report filename (required).
 
@@ -53,7 +53,7 @@ Specify the report filename (required).
 loaders: [
   {
     ...
-    loader: 'raw!parker?report=stylesheet-analysis.md'
+    loader: 'raw!parker?filename=stylesheet-analysis.md'
   }
 ]
 ```
