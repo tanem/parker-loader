@@ -40,7 +40,7 @@ Specify the report format (defaults to markdown). See the [parker usage docs](ht
 loaders: [
   {
     ...
-    loader: 'raw!parker?format=csv'
+    loader: 'raw!parker?format=csv&filename=stylesheet-analysis.csv'
   }
 ]
 ```
