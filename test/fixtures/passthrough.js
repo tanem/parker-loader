@@ -1,1 +1,1 @@
-require('file?name=styles.css!../../!./styles.css');
+require('file?name=styles.css!../../?filename=report.md!./styles.css');
