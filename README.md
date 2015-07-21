@@ -63,3 +63,7 @@ loaders: [
 ```
 $ npm test
 ```
+
+## License
+
+MIT
