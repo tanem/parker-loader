@@ -8,7 +8,7 @@ Output a stylesheet analysis report using [parker](https://github.com/katiefenn/
 ## Installation
 
 ```
-$ npm i parker-loader -D
+$ npm install parker-loader --save-dev
 ```
 
 __Note:__ [npm](https://npmjs.com) will deprecate [peerDependencies](https://github.com/npm/npm/issues/6565) on the next major release, so required dependencies like parker and webpack will have to be installed manually.
