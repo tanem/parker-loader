@@ -1,7 +1,8 @@
 # parker-loader
 
-[![Build Status](https://travis-ci.org/tanem/parker-loader.png?branch=master)](https://travis-ci.org/tanem/parker-loader)
-[![NPM version](https://badge.fury.io/js/parker-loader.svg)](http://badge.fury.io/js/parker-loader)
+[![build status](https://img.shields.io/travis/tanem/parker-loader/master.svg?style=flat-square)](https://travis-ci.org/tanem/parker-loader)
+[![npm version](https://img.shields.io/npm/v/parker-loader.svg?style=flat-square)](https://www.npmjs.com/package/parker-loader)
+[![npm downloads](https://img.shields.io/npm/dm/parker-loader.svg?style=flat-square)](https://www.npmjs.com/package/parker-loader)
 
 Output a stylesheet analysis report using [parker](https://github.com/katiefenn/parker) and [webpack](https://github.com/webpack/webpack).
 
