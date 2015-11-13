@@ -5,11 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "loader-utils": "^0.2.10",
-    "lodash.merge": "^3.3.1"
-  },
-  "peerDependencies": {
-    "parker": "*",
-    "webpack": "*"
+    "lodash.merge": "^3.3.1",
+    "parker": "0.0.9"
   },
   "scripts": {
     "test": "rm -rf build && tape test/parker-loader.test.js"
@@ -27,7 +24,8 @@
   "devDependencies": {
     "file-loader": "^0.8.4",
     "raw-loader": "^0.5.1",
-    "tape": "^4.0.0"
+    "tape": "^4.0.0",
+    "webpack": "^1.12.4"
   },
   "keywords": [
     "webpack",
