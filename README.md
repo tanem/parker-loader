@@ -1,5 +1,7 @@
 # parker-loader
 
+> **Unmaintained.** This project is no longer maintained and the repository is archived. The npm package is deprecated.
+
 [![build status](https://img.shields.io/travis/tanem/parker-loader/master.svg?style=flat-square)](https://travis-ci.org/tanem/parker-loader)
 [![npm version](https://img.shields.io/npm/v/parker-loader.svg?style=flat-square)](https://www.npmjs.com/package/parker-loader)
 [![npm downloads](https://img.shields.io/npm/dm/parker-loader.svg?style=flat-square)](https://www.npmjs.com/package/parker-loader)
